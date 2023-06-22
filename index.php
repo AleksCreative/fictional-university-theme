@@ -33,6 +33,9 @@ while(have_posts()) {
 
 
 <?php }
+
+echo paginate_links();
+
 ?>
 
 </div>
