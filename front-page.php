@@ -31,10 +31,9 @@
               )
             )
           ));
-          while($homepageEvents->have_posts()) {
-            $homepageEvents->the_post(); ?>
 
-        
+          while($homepageEvents->have_posts()) {
+            $homepageEvents->the_post(); ?>        
           
           <div class="event-summary">
             <a class="event-summary__date t-center" href="<?php the_permalink(); ?>">
